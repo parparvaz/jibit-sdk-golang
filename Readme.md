@@ -43,8 +43,8 @@ client := binance.NewProxyClient(apiKey, secretKey, proxyUrl)
 ```
 
 
-#### Send Lookup SMS
-
+#### Match Card Number With Name
+ 
 ```golang
 res, err := client.NewMatchCardNumberWithNameService().
 	CardNumber("card number").
