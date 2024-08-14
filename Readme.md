@@ -23,9 +23,8 @@ Init client for API services. Get ApiKey from your jibit account.
 
 ```golang
 var (
-
 	apiKey = "your api key"
-    secretKey = "your secret key"
+        secretKey = "your secret key"
 )
 client := jibit.NewClient(apiKey, secretKey)
 ```
